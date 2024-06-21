@@ -34,7 +34,7 @@
   --fs-3: calc(1.313rem + 1vw);
   --fs-4: 1.4rem;
   --fs-5: 1rem;
-  --fs-6: 0.813rem;
+  --fs-6: 0.9rem;
   --fs-7: 0.75rem;
   --fs-logo: 1.9rem;
 
@@ -744,6 +744,7 @@ main {
   left: 0;
   width: 100%;
   padding: 20px;
+  z-index: 1;
 }
 
 .project-card .card-title {
@@ -755,12 +756,12 @@ main {
   padding: 6px 12px;
   width: max-content;
   box-shadow: var(--shadow-1);
-  transform: translateY(20px);
+  /* transform: translateY(20px);
   opacity: 0;
-  transition: var(--transition-1);
+  transition: var(--transition-1); */
 }
 
-.project-card .publish-date {
+.project-card .card-title {
   font-size: var(--fs-6);
   color: var(--color-primary);
   transition-delay: 0s;
