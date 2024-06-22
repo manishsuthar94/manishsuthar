@@ -751,11 +751,15 @@ main {
   margin-bottom: 10px;
 }
 
+
 .project-card :is(.card-title, .publish-date) {
-  background: var(--bg-primary);
+  background-color: #1d2a36;
   padding: 6px 12px;
+  border: 0.2rem solid rgba(69, 225, 236, 0.87);
   width: max-content;
-  box-shadow: var(--shadow-1);
+  box-shadow:  var(--card-shadow);
+  border-radius: 6px;
+ 
   /* transform: translateY(20px);
   opacity: 0;
   transition: var(--transition-1); */
@@ -763,9 +767,10 @@ main {
 
 .project-card .card-title {
   font-size: var(--fs-6);
-  color: var(--color-primary);
+  color: white;
   transition-delay: 0s;
 }
+
 
 .project-card:is(:hover, :focus) :is(.card-title, .publish-date) {
   transform: translateY(0);
