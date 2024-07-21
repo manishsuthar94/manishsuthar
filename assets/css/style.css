@@ -504,11 +504,19 @@ main {
   margin-bottom: var(--section-padding);
 }
 
+/* .hero-banner {
+  max-width: 500px;
+  width: 125%;
+  margin-bottom: 30px;
+} */
+
 .hero-banner {
   max-width: 500px;
   width: 125%;
   margin-bottom: 30px;
+  margin-top: 4em;
 }
+
 
 :is(.hero-social-list, .scroll-down) {
   display: none;
@@ -1178,9 +1186,15 @@ textarea.input-field {
     height: 100vh;
   }
 
-  .hero-banner {
+  /* .hero-banner {
     max-width: unset;
     height: 100%;
+    margin-bottom: 0;
+  } */
+
+  .hero-banner {
+    max-width: unset;
+    height: 93%;
     margin-bottom: 0;
   }
 
